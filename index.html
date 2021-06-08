@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?
+        family=Montserrat:wght@100;200;300;400;500;600;700;800&
+        family=Roboto&display=swap"> -->
     <link rel="stylesheet" href="./style.css">
     <title>Tuto Carte Animée</title>
 </head>
 <body>
     
+    <div class="container-card">
+        <div class="card">
+            <div class="image-zoom"></div>
+            <div class="bloc-content-show">
+                <h2>
+                    <span>Bryan Cranston</span>
+                    <img src="./cloud-computing.svg" alt="Icone téléchargement">
+                </h2>
+                <hr>
+                <p>
+                    <span>FILMS :</span>
+                    Argo, Saving Private Ryan, Drive;
+                </p>
+                <p>
+                    <span>RECOMPENSE :</span>
+                    Emmy Award for Breaking Bad in 2009.
+                </p>
+            </div>
+        </div>
+        <div class="bloc-focus-top"></div>
+        <div class="bloc-focus-bottom"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/EasePack.min.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
