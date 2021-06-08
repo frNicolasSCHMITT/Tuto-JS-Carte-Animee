@@ -15,6 +15,10 @@ body{
     height: 90vh;
 }
 
+.container-card{
+    position: relative;
+}
+
 .card{
     width: 400px;
     height: 600px;
